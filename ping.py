@@ -1,6 +1,6 @@
 import ping3
 
-hostname = "0.0.0.0"
+hostname = input("Insert Hostname: ")
 response_time = ping3.ping(hostname)
 
 if response_time is not None:
